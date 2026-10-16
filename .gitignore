@@ -1,0 +1,13 @@
+# Large, regenerable files
+results/*.pt
+results/part3_features.npz
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Local virtual environment
+.venv/
+
+# Saved word2vec model (regenerable)
+results/word2vec.model*

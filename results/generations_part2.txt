@@ -1,0 +1,54 @@
+
+########## sampling (T=0.8, top-k=40) ##########
+
+PROMPT: the city of
+  [A: random, trainable  ] the city of the northern union . the area was demolished . when the company was a new american force , the fort remained in the early 20th century , which was the
+  [B: word2vec, frozen   ] the city of the county state to the area . " in may 2003 , the church has no longer than a result of the city of the city , which was the
+  [C: GloVe, frozen      ] the city of the song " i 'm to be , and an big in the world ' ' ' ' ' face " . the game was released on july 7 ,
+
+PROMPT: in 1990 , the
+  [A: random, trainable  ] in 1990 , the last series of the american theatre of the game of the american song , which aired by the new york 's film . <eos> = = = film = =
+  [B: word2vec, frozen   ] in 1990 , the number of the city 's largest schools in the first decades . the original in the national museum , to have been a grade of three @-@ dimensional school in
+  [C: GloVe, frozen      ] in 1990 , the game was released as the first year . a team later at the first time in the season of the game , and the final , the phillies was named
+
+PROMPT: the game was released
+  [A: random, trainable  ] the game was released as a regular @-@ selling album by the film 's third season to be seen by critics . the song was released as a single of the first time in
+  [B: word2vec, frozen   ] the game was released by the best @-@ selling game series . he was ranked by david , " the first star " . <eos> = = = release = = = <eos> the
+  [C: GloVe, frozen      ] the game was released on the billboard hot 2 chart ( 1 @.@ 4 million ) and the us of america , on the billboard hot hot hot , the series . <eos> =
+
+PROMPT: he was born in
+  [A: random, trainable  ] he was born in the netherlands for the first time . <eos> = = history = = <eos> = = = = second quarter = = = = <eos> in the first half ,
+  [B: word2vec, frozen   ] he was born in the eastern , and the song was the first time of the season . the title , the third @-@ @-@ season in the 2002 , the team 's team
+  [C: GloVe, frozen      ] he was born in the village 's cathedral . <eos> = = = = early religious = = = = <eos> the oldest of the church 's largest roman was built by the first
+
+PROMPT: the album received
+  [A: random, trainable  ] the album received the first best series of the " big @-@ like pop video " ( " the " r hero ) , and one of the album 's best . <eos>
+  [B: word2vec, frozen   ] the album received a number of a number of selling of the show in the backyard in the united states in september 2011 , and produced in the uk 100 chart chart .
+  [C: GloVe, frozen      ] the album received a " " " , " crazy a " " of the album that the song was featured on a grammy album song . the song was released on the
+
+########## greedy ##########
+
+PROMPT: the city of
+  [A: random, trainable  ] the city of the city . the first time of the church was the first time of the war , and the first time of the war was the first time of the
+  [B: word2vec, frozen   ] the city of the city . <eos> = = = = = = = = = = = = = = = = = = = = = = = = = =
+  [C: GloVe, frozen      ] the city of the city of the city of the city . <eos> = = = = = = = = = = = = = = = = = = = =
+
+PROMPT: in 1990 , the
+  [A: random, trainable  ] in 1990 , the first @-@ selling @-@ time @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@
+  [B: word2vec, frozen   ] in 1990 , the first time in the united states , and the united states , and the united states , and the united states . <eos> = = = = = = =
+  [C: GloVe, frozen      ] in 1990 , the first year of the first year . <eos> = = = = = = = = = = = = = = = = = = = = = =
+
+PROMPT: the game was released
+  [A: random, trainable  ] the game was released in the united states . <eos> = = = = = = = = = = = = = = = = = = = = <eos> = = =
+  [B: word2vec, frozen   ] the game was released in the united states . <eos> = = = = critical = = = = <eos> = = = = critical = = = = <eos> = = = =
+  [C: GloVe, frozen      ] the game was released in the united states , and the first year of the season . <eos> = = = = = = = = = = = = = = = =
+
+PROMPT: he was born in
+  [A: random, trainable  ] he was born in the united states . <eos> = = = = = = = = = = = = = = = = = = = = <eos> = = = =
+  [B: word2vec, frozen   ] he was born in the united states . <eos> = = = = = = = = = = = = = = = = = = = = = = = = =
+  [C: GloVe, frozen      ] he was born in the united states . <eos> = = = = = = = = = = = = = = = = = = = = = = = = =
+
+PROMPT: the album received
+  [A: random, trainable  ] the album received a " one of the best @-@ selling " . <eos> = = = = = = = = = = = = = = = = = = =
+  [B: word2vec, frozen   ] the album received the album 's album . <eos> = = = = = = = = = = = = = = = = = = = = = = = =
+  [C: GloVe, frozen      ] the album received the album 's first single in the united states . <eos> = = = = = = = = = = = = = = = = = = =

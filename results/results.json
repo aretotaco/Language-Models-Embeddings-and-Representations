@@ -1,0 +1,42 @@
+{
+  "ngram": {
+    "test_ce": 5.625879135085563,
+    "test_ppl": 277.51615149701223,
+    "lambdas": [
+      0.3,
+      0.55,
+      0.15
+    ],
+    "train_time_s": 3.5762012004852295,
+    "infer_time_s": 0.4910714626312256,
+    "throughput_tok_per_s": 497076.3291600779,
+    "size_num_ngrams": 2014882
+  },
+  "rnn": {
+    "test_ce": 5.300648868888894,
+    "test_ppl": 200.46684448119507,
+    "params": 10780436,
+    "train_time_s": 411.27389907836914,
+    "best_epoch": 10,
+    "infer_time_s": 1.6722934246063232,
+    "throughput_tok_per_s": 145945.67939382733
+  },
+  "lstm": {
+    "test_ce": 5.1828480701514055,
+    "test_ppl": 178.1895854257812,
+    "params": 11450132,
+    "train_time_s": 478.29659938812256,
+    "best_epoch": 10,
+    "infer_time_s": 2.1340345541636148,
+    "throughput_tok_per_s": 114367.4077459609
+  },
+  "transformer": {
+    "test_ce": 5.180283861859247,
+    "test_ppl": 177.73325552574994,
+    "params": 11654164,
+    "train_time_s": 435.1860456466675,
+    "best_epoch": 10,
+    "infer_time_s": 1.7132283051808674,
+    "throughput_tok_per_s": 142458.53822397237
+  }
+}

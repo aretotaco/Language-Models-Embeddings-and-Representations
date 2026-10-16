@@ -1,0 +1,10 @@
+,LM test PPL,best C,Val acc,Test acc,Test macro-F1
+Emb-C (GloVe) | bag-of-emb,,0.01,0.8955,0.8716,0.8712
+LSTM-C (GloVe) | mean,172.9,0.1,0.8405,0.8237,0.8234
+Emb-B (w2v) | bag-of-emb,,0.01,0.789,0.7759,0.7748
+LSTM-B (w2v) | mean,165.2,1.0,0.765,0.7642,0.7633
+Transformer | mean,177.7,0.1,0.7285,0.7284,0.7267
+RNN | mean,200.5,0.01,0.652,0.6612,0.6584
+LSTM-A (random) | mean,178.2,0.01,0.6425,0.6441,0.6415
+Emb-A (learned) | bag-of-emb,,0.01,0.6145,0.6199,0.6185
+LSTM-A (random) | last,178.2,0.01,0.568,0.5851,0.5809

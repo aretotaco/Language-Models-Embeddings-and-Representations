@@ -1,0 +1,64 @@
+
+########## sampling (T=0.8, top-k=40) ##########
+
+PROMPT: the city of
+  [n-gram     ] the city of the season was . <eos> and the = = that and was the the more " . the " , she was a of bella center and a the the
+  [RNN        ] the city of the pacific ocean ( the southern terminus from september 17 , 2005 ) . a storm of the area is more than 1 @.@ 4 m ☉ , and the
+  [LSTM       ] the city of the northern union . the area was demolished . when the company was a new american force , the fort remained in the early 20th century , which was the
+  [Transformer] the city of the central terminus . the missouri river were known locally known as the missouri and was the first creek was recorded to the eastern terminus of central pacific ocean .
+
+PROMPT: in 1990 , the
+  [n-gram     ] in 1990 , the second album , " it was a , which a local of the album was created to the first part of the the today ) the the , in a
+  [RNN        ] in 1990 , the area was a first largest @-@ class area at the university of the west pacific ocean . the road continued northward into the eastern pacific area . however , it
+  [LSTM       ] in 1990 , the last series of the american theatre of the game of the american song , which aired by the new york 's film . <eos> = = = film = =
+  [Transformer] in 1990 , the storm was the third part of the first @-@ day trough on the first . it was the hurricane struck a tropical cyclone and intensified , and in the storm
+
+PROMPT: the game was released
+  [n-gram     ] the game was released as a young , bruce springsteen of the " . <eos> = = = = = the series , the and the first single to be was in the ,
+  [RNN        ] the game was released by the 2010 , making the best @-@ selling album , the series of the album was released on the album , the most popular and has no positive reviews
+  [LSTM       ] the game was released as a regular @-@ selling album by the film 's third season to be seen by critics . the song was released as a single of the first time in
+  [Transformer] the game was released by the player 's new album as a record of the game and the third season of the episode . <eos> = = = = <eos> an american version of
+
+PROMPT: he was born in
+  [n-gram     ] he was born in the final the city of the second @-@ to @-@ the as a , the @-@ art of the game was the of the north @-@ east of the "
+  [RNN        ] he was born in the english navy . <eos> = = = = = = <eos> = = = international intersections = = = <eos> the cathedral is covered on the strand . the
+  [LSTM       ] he was born in the netherlands for the first time . <eos> = = history = = <eos> = = = = second quarter = = = = <eos> in the first half ,
+  [Transformer] he was born in the 16th century . <eos> = = = = = <eos> in the late 1920s , a new population of the church of the irish city of the church 's
+
+PROMPT: the album received
+  [n-gram     ] the album received the ball @-@ room , and and is a total of the on august 2009 , the album = <eos> the the of the film , including the city of
+  [RNN        ] the album received the song 's first album , with several songs and " it was one of the best greatest games , " the forge " of the simpsons 's best @-@
+  [LSTM       ] the album received the first best series of the " big @-@ like pop video " ( " the " r hero ) , and one of the album 's best . <eos>
+  [Transformer] the album received by a large amount of the time , and released at number 11 of the billboard hot 100 to 100 on the billboard hot 100 . it was released on
+
+########## greedy ##########
+
+PROMPT: the city of
+  [n-gram     ] the city of the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the
+  [RNN        ] the city of the city 's first division . <eos> = = = = = <eos> the first time of the city 's first season , the team was released in the united
+  [LSTM       ] the city of the city . the first time of the church was the first time of the war , and the first time of the war was the first time of the
+  [Transformer] the city of the city of the city of the city of the city of the city . the city was the largest city of the city of the city of the city
+
+PROMPT: in 1990 , the
+  [n-gram     ] in 1990 , the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the grand
+  [RNN        ] in 1990 , the first time of the first time , the first time of the game 's first season , the hokies was released in the united states , and the first time
+  [LSTM       ] in 1990 , the first @-@ selling @-@ time @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@ old @-@
+  [Transformer] in 1990 , the first time of the first time , the first time of the season . <eos> = = = = = = = = = = = = = = <eos>
+
+PROMPT: the game was released
+  [n-gram     ] the game was released in the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the
+  [RNN        ] the game was released in the united states , and the first time of the album , and the first single album , and the first single album , and the first single album
+  [LSTM       ] the game was released in the united states . <eos> = = = = = = = = = = = = = = = = = = = = <eos> = = =
+  [Transformer] the game was released in the united states . <eos> = = = = = = = = = = <eos> the first game was released in the united states , and the game
+
+PROMPT: he was born in
+  [n-gram     ] he was born in the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the
+  [RNN        ] he was born in the united states . <eos> = = = = = <eos> the first time of the game , the album was released in the united states , and the first
+  [LSTM       ] he was born in the united states . <eos> = = = = = = = = = = = = = = = = = = = = <eos> = = = =
+  [Transformer] he was born in the united states . <eos> = = = = = = = = = = = <eos> the first time of the season , the first season was the first
+
+PROMPT: the album received
+  [n-gram     ] the album received a the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the the grand slam tournament , and the
+  [RNN        ] the album received a " , " i 'm not a lot of the " . <eos> = = = = = <eos> the first time of the album , the album was
+  [LSTM       ] the album received a " one of the best @-@ selling " . <eos> = = = = = = = = = = = = = = = = = = =
+  [Transformer] the album received the album . <eos> = = = = = = <eos> = = = = = = = = = = = = = = = = = = =

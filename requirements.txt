@@ -1,0 +1,9 @@
+torch
+datasets
+gensim
+scikit-learn
+scipy
+pandas
+numpy
+matplotlib
+ipykernel

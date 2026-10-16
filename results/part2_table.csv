@@ -1,0 +1,4 @@
+,Test PPL,Trainable params,Vocab coverage,Val PPL ep1,Val PPL ep5,Val PPL ep10,Epochs val got worse,Final train−val gap,LM train time (s),Embedding cost
+"A: random, trainable",178.2,11450132,n/a,569.0,247.2,191.6,0,-0.06,478.3,0 (learned jointly)
+"B: word2vec, frozen",165.2,8492932,100.0%,598.4,216.1,177.2,0,-0.044,443.4,61.9s (word2vec)
+"C: GloVe, frozen",172.9,8492932,96.2%,723.0,245.4,185.8,0,0.039,445.0,"0 (pre-trained, download only)"
